@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.shadesofandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+            <activity
+                android:name=".RedActivity"
+                android:label="RED"
+                android:background="@android:color/black"/>
+
+        <activity
+            android:name=".PinkActivity"
+            android:label="Pink" />
+
+        <activity
+            android:name=".PurpleActivity"
+            android:label="Purple" />
+
+        <activity
+            android:name=".DeeppurpleActivity"
+            android:label="Deep Blue" />
+
+        <activity
+            android:name=".IndigoActivity"
+            android:label="Indigo" />
+
+        <activity
+            android:name=".BlueActivity"
+            android:label="Blue" />
+
+        <activity
+            android:name=".LightBlueActivity"
+            android:label="Light Blue" />
+
+        <activity
+            android:name=".CyanActivity"
+            android:label="Cyan" />
+
+        <activity
+            android:name=".TealActivity"
+            android:label="Teal" />
+
+        <activity
+            android:name=".GreenActivity"
+            android:label="Green" />
+
+        <activity
+            android:name=".LightGreenActivity"
+            android:label="Light Green" />
+
+        <activity
+            android:name=".LimeActivity"
+            android:label="Lime" />
+
+        <activity
+            android:name=".YellowActivity"
+            android:label="Yellow" />
+
+        <activity
+            android:name=".AmberActivity"
+            android:label="Amber" />
+
+        <activity
+            android:name=".OrangeActivity"
+            android:label="Orange" />
+
+        <activity
+            android:name=".DeepOrangeActivity"
+            android:label="Deep Orange" />
+
+        <activity
+            android:name=".BrownActivity"
+            android:label="@string/Brown"/>
+
+        <activity
+            android:name=".GreyActivity"
+            android:label="@string/Grey" />
+
+        <activity
+            android:name=".BlueGreyActivity"
+            android:label="@string/Blue_Grey" />
+
+        <activity
+            android:name=".BlackActivity"
+            android:label="@string/Black" />
+
+        <activity
+            android:name=".WhiteActivity"
+            android:label="@string/White" />
+
+
+
+    </application>
+
+</manifest>

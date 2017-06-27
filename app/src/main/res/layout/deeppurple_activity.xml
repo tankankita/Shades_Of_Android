@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        tools:context="com.example.android.shadesofandroid.MainActivity">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#EDE7F6"
+            android:text="#EDE7F6"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#D1C4E9"
+            android:text="#D1C4E9"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#B39DDB"
+            android:text="#B39DDB"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#9575CD"
+            android:text="#9575CD"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#7E57C2"
+            android:text="#7E57C2"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#673AB7"
+            android:text="#673AB7"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#5E35B1"
+            android:text="#5E35B1"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#512DA8"
+            android:text="#512DA8"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#4527A0"
+            android:text="#4527A0"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#311B92"
+            android:text="#311B92"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#B388FF"
+            android:text="#B388FF"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#7C4DFF"
+            android:text="#7C4DFF"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#651FFF"
+            android:text="#651FFF"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#6200EA"
+            android:text="#6200EA"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+</ScrollView>

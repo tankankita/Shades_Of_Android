@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+     tools:context="com.example.android.shadesofandroid.MainActivity">
+
+    <TextView
+        android:id="@+id/Red"
+        style="@style/CategoryStyle"
+        android:background="@color/Red"
+        android:text="@string/red"
+        android:textAlignment="center"
+        android:onClick="red"/>
+
+    <TextView
+        android:id="@+id/Pink"
+        style="@style/CategoryStyle"
+        android:background="@color/Pink"
+        android:text="@string/Pink"
+        android:textAlignment="center"
+        android:onClick="pink"/>
+
+    <TextView
+        android:id="@+id/Purple"
+        style="@style/CategoryStyle"
+        android:background="@color/Purple"
+        android:text="@string/Purple"
+        android:textAlignment="center"
+        android:onClick="purple"/>
+
+    <TextView
+        android:id="@+id/DeepPurple"
+        style="@style/CategoryStyle"
+        android:background="@color/Deep_Purple"
+        android:text="@string/Deep_Purple"
+        android:textAlignment="center"
+        android:onClick="deep_purple"/>
+
+    <TextView
+        android:id="@+id/Indigo"
+        style="@style/CategoryStyle"
+        android:background="@color/Indigo"
+        android:text="@string/Indigo"
+        android:textAlignment="center"
+        android:onClick="indigo"/>
+
+    <TextView
+        android:id="@+id/Blue"
+        style="@style/CategoryStyle"
+        android:background="@color/Blue"
+        android:text="@string/Blue"
+        android:textAlignment="center"
+        android:onClick="blue"/>
+
+    <TextView
+        android:id="@+id/Light_Blue"
+        style="@style/CategoryStyle"
+        android:background="@color/Light_Blue"
+        android:text="@string/Light_Blue"
+        android:textAlignment="center"
+        android:onClick="lightblue"/>
+
+
+    <TextView
+        android:id="@+id/Cyan"
+        style="@style/CategoryStyle"
+        android:background="@color/Cyan"
+        android:text="Cyan"
+        android:textAlignment="center"
+        android:onClick="cyan"/>
+
+    <TextView
+        android:id="@+id/Teal"
+        style="@style/CategoryStyle"
+        android:background="@color/Teal"
+        android:text="@string/Teal"
+        android:textAlignment="center"
+        android:onClick="teal"/>
+
+    <TextView
+        android:id="@+id/Green"
+        style="@style/CategoryStyle"
+        android:background="@color/Green"
+        android:text="@string/Green"
+        android:textAlignment="center"
+        android:onClick="green"/>
+
+    <TextView
+        android:id="@+id/Light_Green"
+        style="@style/CategoryStyle"
+        android:background="@color/Light_Green"
+        android:text="@string/Light_Green"
+        android:textAlignment="center"
+        android:onClick="lightgreen"/>
+
+    <TextView
+        android:id="@+id/Lime"
+        style="@style/CategoryStyle"
+        android:background="@color/Lime"
+        android:text="@string/Lime"
+        android:textAlignment="center"
+        android:onClick="lime"/>
+
+    <TextView
+        android:id="@+id/Yellow"
+        style="@style/CategoryStyle"
+        android:background="@color/Yellow"
+        android:text="@string/Yellow"
+        android:textAlignment="center"
+        android:onClick="yellow"/>
+
+    <TextView
+        android:id="@+id/Amber"
+        style="@style/CategoryStyle"
+        android:background="@color/Amber"
+        android:text="@string/Amber"
+        android:textAlignment="center"
+        android:onClick="amber"/>
+
+    <TextView
+        android:id="@+id/Orange"
+        style="@style/CategoryStyle"
+        android:background="@color/Orange"
+        android:text="@string/Orange"
+        android:textAlignment="center"
+        android:onClick="orange"/>
+
+    <TextView
+        android:id="@+id/Deep_Orange"
+        style="@style/CategoryStyle"
+        android:background="@color/Deep_Orange"
+        android:text="@string/Deep_Orange"
+        android:textAlignment="center"
+        android:onClick="deeporange"/>
+
+    <TextView
+        android:id="@+id/Brown"
+        style="@style/CategoryStyle"
+        android:background="@color/Brown"
+        android:text="@string/Brown"
+        android:textAlignment="center"
+        android:onClick="brown"/>
+
+    <TextView
+        android:id="@+id/Grey"
+        style="@style/CategoryStyle"
+        android:background="@color/Grey"
+        android:text="@string/Grey"
+        android:textAlignment="center"
+        android:onClick="grey"/>
+
+    <TextView
+        android:id="@+id/Blue_Grey"
+        style="@style/CategoryStyle"
+        android:background="@color/Blue_Grey"
+        android:text="@string/Blue_Grey"
+        android:textAlignment="center"
+        android:onClick="bluegrey"/>
+
+    <TextView
+        android:id="@+id/Black"
+        style="@style/CategoryStyle"
+        android:background="@color/Black"
+        android:text="@string/Black"
+        android:textAlignment="center"
+        android:onClick="black"/>
+
+    <TextView
+        android:id="@+id/White"
+        style="@style/CategoryStyle"
+        android:background="@color/White"
+        android:text="@string/White"
+        android:textAlignment="center"
+
+        android:textColor="@android:color/black"
+        android:onClick="white"/>
+
+
+ </LinearLayout>
+</ScrollView>
